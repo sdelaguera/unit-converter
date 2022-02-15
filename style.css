@@ -1,0 +1,156 @@
+@font-face {
+    font-family: Inter;
+    src: url(fonts/Inter-Regular.ttf);
+}
+
+body {
+    background-color: black;
+
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+
+#converter-container {
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    left: 705px;
+    top: 83px;
+    display: flex;
+
+    background: #FBF7EE;
+}
+
+.converter-header {
+    background-image: linear-gradient(
+    45deg,
+    hsl(240deg 100% 20%) 0%,
+    hsl(291deg 100% 18%) 11%,
+    hsl(317deg 100% 22%) 22%,
+    hsl(329deg 100% 26%) 33%,
+    hsl(348deg 59% 37%) 44%,
+    hsl(6deg 46% 43%) 56%,
+    hsl(20deg 45% 44%) 67%,
+    hsl(30deg 39% 47%) 78%,
+    hsl(41deg 30% 51%) 89%,
+    hsl(55deg 23% 56%) 100%);
+    position: absolute;
+    width: 550px;
+    height: 260px;
+    left: 0px;
+    top: 0px;
+
+}
+
+.converter-footer {
+    position: absolute;
+    width: 346px;
+    height: 215px;
+    left: 102px;
+    top: 297px;
+
+}
+
+.header-title {
+    position: absolute;
+    width: 448.4px;
+    height: 38px;
+    left: 51px;
+    top: 53px;
+
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 38px;
+    /* identical to box height, or 173% */
+
+    text-align: center;
+    letter-spacing: -0.05em;
+
+    color: #FFFFFF;
+}
+
+input {
+    background: none;
+    border: 0;
+    overflow: hidden; /* Hide scrollbars */
+    -moz-appearance: textfield;
+    
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#userNumber {
+    position: absolute;
+    width: 211px;
+    height: 71.23px;
+    left: 169px;
+    top: 155px;
+    padding: 5px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 97.5723px;
+    font-size: 3.5vw;
+    line-height: 24px;
+    /* or 25% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    background-color: none;
+}
+
+
+.results-header {
+    width: 346px;
+    height: 25px;
+    left: 102px;
+    top: 461px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+    text-align: center;
+
+    color: #1A1921;
+}
+
+
+
+
+.results {
+    text-align: center;
+    width: 346px;
+    height: 55px;
+    padding-bottom: 5px;
+    
+}
+
+
+.results-output {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+    text-align: center;
+    display: block;
+
+    color: #4E4E4E;
+}
